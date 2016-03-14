@@ -6,3 +6,31 @@ html {
 *, *::before, *::after {
 	box-sizing: inherit;
 }
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.banner-body {
+  font-size: 2rem;
+  font-style: italic;
+  position: absolute;
+  bottom: 0;
+}
+
+.banner-title {
+  font-size: 4rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+
+.banner {
+  max-height: 500px;
+  position: relative;
+}
