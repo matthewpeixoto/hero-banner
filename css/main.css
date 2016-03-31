@@ -1,10 +1,11 @@
 html {
-	box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 .img-flex {
@@ -16,21 +17,39 @@ body {
   margin: 0;
 }
 
-.banner-body {
-  font-size: 2rem;
-  font-style: italic;
-  position: absolute;
-  bottom: 0;
-}
-
-.banner-title {
+.title {
   font-size: 4rem;
+  line-height: 1.4;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
+  margin: 0;
+  padding: 0;
+  display: inline;
+
+}
+
+.text {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+  margin-top: 15px;
 }
 
 .banner {
   max-height: 500px;
   position: relative;
+  overflow: hidden;
+}
+
+.content {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 25px;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  min-width: 630px;
+  max-width: 730px;
 }
